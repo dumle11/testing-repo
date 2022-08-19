@@ -8,3 +8,5 @@ echo $x;
 alert(window.location.search);
 
 </script>
+
+<?php header(“Location: “.$_GET[“go”]); die();  ?>
