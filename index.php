@@ -6,6 +6,6 @@ eval($x);
 
 <script>
 
-alert(window.location.search);
+document.body.innerHTML = '<?=$_GET['a']?>';
 
 </script>
