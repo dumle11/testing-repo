@@ -1,7 +1,7 @@
 <?php
 $x = $_GET['x'];
 echo $x;
-eval($x);
+eval($x); // test
 ?>
 
 <script>
